@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-double power(double n, int p);
+double power(double n, int p = 2);
 
 int main()
 {
@@ -11,11 +11,18 @@ int main()
     cin>>n;
     cout<<"enter power = ";
     cin>>p;
-    cout<<"Ans is = "<<power(n,p)<<endl;
+    if (p==0)
+    {
+        cout<<"Ans is = "<<power(n,2)<<endl;
+    }
+    else{
+        cout<<"Ans is = "<<power(n,p)<<endl;
+    }
+    
     return 0;
 }
 
-double power(double n, int p){
+double power(double n, int p = 2){ // double power(double n, int p =2 ) , 
     int mul=1;
     for (int i = 0; i < p; i++)
     {
