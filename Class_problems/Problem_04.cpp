@@ -16,7 +16,7 @@ double calculator(double n1, double n2, char ch)
     case '/':
         return n1 / n2;
     default:
-        printf("Enter correct opearator");
+        return 0;
     }
 }
 int main()
