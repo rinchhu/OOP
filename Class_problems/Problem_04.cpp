@@ -16,7 +16,7 @@ double calculator(double n1, double n2, char ch)
     case '/':
         return n1 / n2;
     default:
-        return 0;
+        return 0000;
     }
 }
 int main()
