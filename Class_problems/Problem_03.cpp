@@ -14,8 +14,8 @@ void addpoints(point a, point b, point &c){
 }
 
 void displaypoints(point p){
-    cout<<"x coordinate = "<<p.x;
-    cout<<"y coordinate = "<<p.y;
+    cout<<"x coordinate = "<<p.x<<endl;
+    cout<<"y coordinate = "<<p.y<<endl;
 }
 
 
